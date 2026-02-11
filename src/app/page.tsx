@@ -1,0 +1,27 @@
+import Image from "next/image";
+import Header from "@/components/landing/Header";
+import Container from "@/components/common/Container";
+import Hero from "@/components/landing/Hero";
+import Experience from "@/components/landing/Experience";
+import Projects from "@/components/landing/Projects";
+import Github from "@/components/landing/GitHub";
+import Skills from "@/components/landing/Skills";
+import Blog from "@/components/landing/Blog";
+import Quote from "@/components/landing/Quote";
+import Contact from "@/components/landing/Contact";
+
+export default function Home() {
+  return (
+    <Container className="main px-4 mx:px-6 py-12">
+      <Header />
+      <Hero />
+      <Experience />
+      <Projects />
+      <Github />
+      <Skills />
+      <Blog />
+      <Contact />
+      <Quote />
+    </Container>
+  );
+}
