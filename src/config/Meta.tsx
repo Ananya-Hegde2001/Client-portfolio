@@ -29,7 +29,6 @@ export const siteConfig = {
         'nextjs',
         'typescript',
         'web development',
-        'sanket singh',
     ],
 };
 
