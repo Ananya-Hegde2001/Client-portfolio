@@ -23,7 +23,7 @@ export const projects: Projects[] = [
     {
         name: "Sonix",
         description: "A voice-activated browser assistant that opens websites and searches Google using the Web Speech API.",
-        image: '/projects/project1.webp',
+        image: '/projects/project2.webp',
         isCompleted: false,
         gitHub: 'https://github.com/SapanaDashoni15/Sonix---A-virtual-Assistant',
         liveLink: 'https://sapanadashoni15.github.io/Sonix---A-virtual-Assistant',
@@ -49,7 +49,7 @@ export const projects: Projects[] = [
     {
         name: "Strength Space",
         description: "A responsive fitness web app with BMI calculator and automated email contact form, built using React, Node.js, Express, and Nodemailer.",
-        image: '/projects/project2.webp',
+        image: '/projects/project1.webp',
         isCompleted: true,
         gitHub: 'https://github.com/SapanaDashoni15/StrengthSpace',
         liveLink: 'https://strength-space-frontend.vercel.app',
