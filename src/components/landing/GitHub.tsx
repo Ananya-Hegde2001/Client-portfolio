@@ -9,6 +9,7 @@ import { useEffect, useState } from "react";
 import Container from "@/components/common/Container";
 import { GithubIcon } from "../svgs/GitHub";
 import { Button } from "../ui/button";
+import AnimatedSection from "../common/AnimatedSection";
 
 const ActivityCalendar = dynamic(
     () => import('react-activity-calendar').then((mod) => mod.ActivityCalendar),
@@ -119,7 +120,8 @@ export default function Github() {
     }, []);
 
     return (
-        <Container className="mt-7 relative z-10 rounded-2xl border p-4 sm:p-8 md-6 pt-8 sm:pt-8 bg-white/60 border-black/8 dark:bg-white/2 dark:border-white/8 opacity-100 transform-none mx-auto max-w-3xl">
+        <AnimatedSection>
+            <Container className="mt-7 relative z-10 rounded-2xl border p-4 sm:p-8 pt-8 sm:pt-8 bg-white/60 border-black/8 dark:bg-white/2 dark:border-white/8 mx-auto max-w-3xl">
             <div className="space-y-6">
                 {/* Header */}
                 <div className="flex items-center justify-between">
@@ -201,5 +203,6 @@ export default function Github() {
                 )}
             </div>
         </Container>
+        </AnimatedSection>
     );
 }
