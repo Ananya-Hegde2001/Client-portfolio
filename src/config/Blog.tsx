@@ -28,4 +28,14 @@ export const blogs: Blogs[] = [
             isPublished: true
         }
     },
+    {
+        slug: "https://medium.com/@sapanadashoni/beginners-guide-to-start-mern-project-from-scratch-f47b13ff2044",
+        frontmatter: {
+            title: "Beginners guide to start MERN project from Scratch",
+            description: "A beginner’s guide to understanding the MERN stack and connecting the frontend, backend, and database in a full-stack JavaScript project.",
+            image: "/blogs/blog2.webp",
+            date: "2026-02-12",
+            isPublished: true
+        }
+    },
 ]
