@@ -14,7 +14,7 @@ export const HeroConfig = {
         },
         {
             icon: <TwitterIcon />,
-            url: 'https://github.com/SapanaDashoni15',
+            url: 'https://x.com/maverick3327',
             name: 'Twitter',
             previewImage: '/Socials/X.webp',
         },
