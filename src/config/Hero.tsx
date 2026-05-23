@@ -1,7 +1,7 @@
 import { GithubIcon } from "@/components/svgs/GitHub";
-import { TwitterIcon } from "@/components/svgs/Twitter";
 import { LinkedinIcon } from "@/components/svgs/Linkdedin";
 import { AtSignIcon } from "@/components/svgs/Mail";
+import LeetCodeIcon from "@/components/svgs/LeetCode";
 
 export const HeroConfig = {
     badge: '/assets/india-badge.png',
@@ -13,10 +13,10 @@ export const HeroConfig = {
             previewImage: '/Socials/GitHub.webp',
         },
         {
-            icon: <TwitterIcon />,
-            url: 'https://x.com/maverick3327',
-            name: 'Twitter',
-            previewImage: '/Socials/X.webp',
+            icon: <LeetCodeIcon />,
+            url: 'https://leetcode.com/u/learnersapana100/',
+            name: 'LeetCode',
+            previewImage: '/Socials/leetcode.png',
         },
         {
             icon: <LinkedinIcon />,

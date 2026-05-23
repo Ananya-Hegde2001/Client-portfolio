@@ -3,25 +3,20 @@ import { ReactNode } from "react";
 import AWS from "@/components/technologies/AWS";
 import Docker from "@/components/technologies/Docker";
 import BootStrap from "@/components/technologies/BootStrap";
-import Bun from "@/components/technologies/Bun";
 import NPM from "@/components/technologies/NPM";
 import Html from "@/components/technologies/Html";
 import CSS from "@/components/technologies/CSS";
 import ExpressJs from "@/components/technologies/ExpressJs";
 import JavaScript from "@/components/technologies/JavaScript";
+import Java from "@/components/technologies/Java";
 import Cpp from "@/components/technologies/Cpp";
 import Python from "@/components/technologies/Python";
 import MongoDB from "@/components/technologies/MongoDB";
-import Motion from "@/components/technologies/Motion";
-import NextJs from "@/components/technologies/NextJs";
-import Netlify from "@/components/technologies/Netlify";
 import NodeJs from "@/components/technologies/NodeJs";
-import PostgreSQL from "@/components/technologies/PostgreSQL";
-import Prisma from "@/components/technologies/Prisma";
 import Postman from "@/components/technologies/Postman";
 import ReactIcon from "@/components/technologies/ReactIcon";
+import SQL from "@/components/technologies/SQL";
 import TailwindCss from "@/components/technologies/TailwindCss";
-import TypeScript from "@/components/technologies/TypeScript";
 import Vercel from "@/components/technologies/Vercel";
 import Shadcn from "@/components/technologies/Shadcn";
 
@@ -44,10 +39,6 @@ export const skillsConfig: SkillItem[] = [
         icon: <JavaScript />
     },
     {
-        name: "TypeScript",
-        icon: <TypeScript />
-    },
-    {
         name: "C/C++",
         icon: <Cpp />
     },
@@ -56,12 +47,12 @@ export const skillsConfig: SkillItem[] = [
         icon: <Python />
     },
     {
-        name: "React",
-        icon: <ReactIcon />
+        name: "Java",
+        icon: <Java />
     },
     {
-        name: "Next.js",
-        icon: <NextJs />
+        name: "React",
+        icon: <ReactIcon />
     },
     {
         name: "Tailwind CSS",
@@ -92,12 +83,8 @@ export const skillsConfig: SkillItem[] = [
         icon: <MongoDB />
     },
     {
-        name: "PostgreSQL",
-        icon: <PostgreSQL />
-    },
-    {
-        name: "Prisma",
-        icon: <Prisma />
+        name: "SQL",
+        icon: <SQL />
     },
     {
         name: "Postman",
@@ -108,20 +95,8 @@ export const skillsConfig: SkillItem[] = [
         icon: <Vercel />
     },
     {
-        name: "Netlify",
-        icon: <Netlify />
-    },
-    {
-        name: "Bun",
-        icon: <Bun />
-    },
-    {
         name: "npm",
         icon: <NPM />
-    },
-    {
-        name: "Framer Motion",
-        icon: <Motion />
     },
     {
         name: "Shadcn UI",

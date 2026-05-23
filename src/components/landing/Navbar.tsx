@@ -11,7 +11,6 @@ import Logo from "@/components/svgs/Logo";
 const navLinks = [
   { href: "/blogs", label: "Blogs" },
   { href: "/projects", label: "Projects" },
-  { href: "/work-experience", label: "Experience" },
 ];
 
 export default function Navbar() {

@@ -2,6 +2,7 @@ import JavaScript from "@/components/technologies/JavaScript";
 import ReactIcon from "@/components/technologies/ReactIcon";
 import TailwindCss from "@/components/technologies/TailwindCss";
 import NodeJs from "@/components/technologies/NodeJs";
+import MongoDB from "@/components/technologies/MongoDB";
 import Vercel from "@/components/technologies/Vercel";
 
 export interface Technology {
@@ -20,6 +21,32 @@ export interface Projects {
 }
 
 export const projects: Projects[] = [
+    {
+        name: "CodeVault",
+        description: "A MERN-style GitHub replica implementing a custom version-control workflow and repository management features for learning and experimentation.",
+        image: '/projects/project2.png',
+        isCompleted: false,
+        gitHub: 'https://github.com/SapanaDashoni15/codeVault',
+        liveLink: 'https://github.com/SapanaDashoni15/codeVault',
+        technologies: [
+            {
+                name: "React",
+                icon: <ReactIcon />,
+            },
+            {
+                name: "Node.js",
+                icon: <NodeJs />,
+            },
+            {
+                name: "MongoDB",
+                icon: <MongoDB />,
+            },
+            {
+                name: "Vercel",
+                icon: <Vercel />,
+            },
+        ]
+    },
     {
         name: "Sonix",
         description: "A voice-activated browser assistant that opens websites and searches Google using the Web Speech API.",
