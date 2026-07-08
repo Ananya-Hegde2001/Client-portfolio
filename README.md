@@ -7,7 +7,7 @@ A minimal, high-performance personal portfolio website designed to showcase my p
 
 - **⚡ Modern Stack:** Built with Nextjs, TypeScript and Tailwind CSS for speed and maintainability.
 - **🎨 Minimalist Design:** Clean aesthetic with a focus on typography and whitespace.
-- **animate:** Smooth page transitions and component animations using **Framer Motion**.
+- **🎨 Animate:** Smooth page transitions and component animations using **Framer Motion**.
 - **📱 Fully Responsive:** Optimized for all devices, from large desktops to mobile phones.
 
 ## 🛠️ Tech Stack
